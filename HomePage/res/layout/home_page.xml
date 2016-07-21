@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bk"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.homepage.app.widget.HomePageDataTimeLayout 
+        android:id="@+id/time_weather"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_width="428dp"
+        android:background="@drawable/time_bg"
+        android:layout_height="174dp"
+        android:orientation="vertical"/>
+	<ImageView 
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="30dp"
+	    android:layout_width="428dp"
+	    android:layout_height="118dp"
+	    android:layout_below="@id/time_weather"
+	    android:background="@drawable/vioce"/>
+    <com.homepage.app.widget.HomeBottonNavigation 
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+       
+</RelativeLayout>
